@@ -3,7 +3,7 @@ body {
     background-color: #99ff99;
     background-image: url('kepek/hatter1.jpg');
     background-position: center;
-    background-attachment: fixed;
+    background-size:90%;
     margin: 0;
     padding: 0;
 }
