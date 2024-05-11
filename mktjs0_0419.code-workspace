@@ -2,6 +2,12 @@
     "folders": [
         {
             "path": "mktjs0_0419"
+        },
+        {
+            "path": "mktjs0_0503"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "mktjs0_0503"
+    }
 }
