@@ -8,8 +8,7 @@ header {
 section {
     font-family: Arial, sans-serif;
     background-color: lightblue;
-    background-size: cover;
-    border: black 1px solid;
+    background-size: border-box 10px 10px;
     box-shadow:  0 0 10px;
     margin: 0;
     padding: 0;

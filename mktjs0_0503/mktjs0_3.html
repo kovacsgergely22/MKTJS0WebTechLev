@@ -1,89 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta http-equiv="Content-Type" content="text/html;">
-
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery feladatok</title>
     <script src="jquery3.7.1.js"></script>
-    <script src="2.js"></script>
+    <script src="3.js"></script>
 
-    <script>
-        $(document).ready(function(){
-            $("btn").click(function(){
-                
-                $("p").hide();
-            });
-        });
-    </script>
+    <style>
+      .inputField {
+        border: 1px solid black;
+      }
 
-</head>
+      .inputField:hover {
+        border-color: red;
+      }
+      .inputField.active {
+        background-color: lightblue;
+      }
+      .table {
+        margin: 5px;
+        padding: 5px;
+      }
+      .td {
+        margin: 5px;
+        padding: 5px;
+      }
+    </style>
+    </style>
+  </head>
+  <body>
+    <header><h1 id="header">jQuery feladatok</h1></header>
 
-<body>
-    
-    <h2 class="fejlec">JQuery feladat</h2>
-
-    <p> A Query egy JavaScript programozói könyvtár, amelyet
-        John Resig kezdett fejleszteni </p>
-    <p><strong>
-        Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja.
-    </strong>
+    <p id="first">
+      A jQuery egy JavaScript programozói könyvtár, amelyet John Resig kezdett
+      fejleszteni.
+      <label id="clickLbl"><strong>Kattints ide</strong>, és eltűnik</label>
+    </p>
+    <p id="second">
+      Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal
+      DOM-ja.
+      <label id="clickLbl2"
+        ><strong>Kattints ide duplán</strong> és eltűnik</label
+      >
     </p>
 
-    <ul>
-        <li>tíz</li>
-        <li>húsz</li>
-        <li>harminc</li>
-    </ul>
-
-    <ul>
-        <li>tizedik</li>
-        <li>huszadik</li>
-        <li>harmincadik</li>
-    </ul>
-
-    <table>
-        <tr>
-            <td>aaaaa</td>
-            <td>bbbbb</td>
-        </tr>
-        <tr>
-            <td>2222aaaaa</td>
-            <td>bbbbb</td>
-        </tr>
-        <tr>
-            <td>3333aaaaa</td>
-            <td>bbbbb</td>
-        </tr>
-        <tr>
-            <td>4444aaaaa</td>
-            <td>bbbbb</td>
-        </tr>
-        <tr>
-            <td>5555aaaaa</td>
-            <td>bbbbb</td>
-        </tr>
-    </table>
-
-    <button id="gomb1">Kattints ide_l!</button>       
-    <button id="gomb2">Kattints ide_2!</button>     
-    <button id="gomb3">Kattints ide_3!</button>        
-    <button id="gomb4">Kattints ide_4!</button>     
-    <button id="gomb5">Kattints ide_5!</button>     
-    <br>Query: <a href="https://jquery.com" id="link">Jquery weboldal</a>
-
-    <btn>
-        <strong>Kattints ide - a bekezdés elrejtve!</strong>
-    </btn>
-
-    <br><br>
-
-    ME weboldal:
-    <a href="https://www.uni-miskolc.hu/">Miskolci Egyetem</a>
-
-    </btn>
-
-</body>
+    <form action="form">
+      <label for="nev"> <strong> Név:</strong></label>
+      <input id="inputField" type="text" class="inputField" /> <br /><br />
+      <label for="email"><strong>E-mail:</strong></label>
+      <input id="inputField" type="text" class="inputField" /> <br />
+      <br />
+      <label for="jelszo"><strong>Jelszó:</strong></label>
+      <input id="inputField" type="password" class="inputField" /> <br />
+      <br />
+    </form>
+    <button id="hover">jelentkezés</button>
+  </body>
 </html>
