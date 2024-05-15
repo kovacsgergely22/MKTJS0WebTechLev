@@ -9,14 +9,12 @@
         "helyszin": "In/101",
         "oktato": "Szűcs Miklós",
         "szak": "MI",
-        "cim":
-        {
+        "cim": {
             "street": "Egyetemváros",
             "city": "Miskolc",
             "code": 1021
         },
-        "phone number":
-        [
+        "phone number": [
             {
                 "type": "Vezetékes:",
                 "number": "0646 555-123"
@@ -26,7 +24,6 @@
                 "number": "0670 555-4567"
             }
         ]
-        
     },
     {
         "kurzusnev": "Biztonság és védelem a számtechban",
@@ -38,14 +35,12 @@
         "helyszin": "In/101",
         "oktato": "Wagner György",
         "szak": "MI",
-        "cim":
-        {
+        "cim": {
             "street": "Egyetemváros",
             "city": "Miskolc",
             "code": 1021
         },
-        "phone number":
-        [
+        "phone number": [
             {
                 "type": "Vezetékes:",
                 "number": "0646 555-123"
@@ -55,7 +50,6 @@
                 "number": "0670 555-4567"
             }
         ]
-    
     },
     {
         "kurzusnev": "Optimalizálás",
@@ -67,14 +61,12 @@
         "helyszin": "A1/320",
         "oktato": "Dr. Körei Attila",
         "szak": "MI",
-        "cim":
-        {
+        "cim": {
             "street": "Egyetemváros",
             "city": "Miskolc",
             "code": 1021
         },
-        "phone number":
-        [
+        "phone number": [
             {
                 "type": "Vezetékes:",
                 "number": "0646 555-123"
@@ -84,7 +76,6 @@
                 "number": "0670 555-4567"
             }
         ]
-    
     },
     {
         "kurzusnev": "Adatbázis rendszerek II.",
@@ -96,14 +87,12 @@
         "helyszin": "In/101",
         "oktato": "Szűcs Miklós",
         "szak": "MI",
-        "cim":
-        {
+        "cim": {
             "street": "Egyetemváros",
             "city": "Miskolc",
             "code": 1021
         },
-        "phone number":
-        [
+        "phone number": [
             {
                 "type": "Vezetékes:",
                 "number": "0646 555-123"
@@ -113,7 +102,6 @@
                 "number": "0670 555-4567"
             }
         ]
-    
     },
     {
         "kurzusnev": "Szoftvertechnológia gyakorlatok",
@@ -125,14 +113,12 @@
         "helyszin": "In/101",
         "oktato": "Sátán Ádám",
         "szak": "MI",
-        "cim":
-        {
+        "cim": {
             "street": "Egyetemváros",
             "city": "Miskolc",
             "code": 1021
         },
-        "phone number":
-        [
+        "phone number": [
             {
                 "type": "Vezetékes:",
                 "number": "0646 555-123"
@@ -142,7 +128,6 @@
                 "number": "0670 555-4567"
             }
         ]
-    
     },
     {
         "kurzusnev": "Modern Fizika",
@@ -154,14 +139,12 @@
         "helyszin": "A1/13",
         "oktato": "Dr. Bányász István",
         "szak": "MI",
-        "cim":
-        {
+        "cim": {
             "street": "Egyetemváros",
             "city": "Miskolc",
             "code": 1021
         },
-        "phone number":
-        [
+        "phone number": [
             {
                 "type": "Vezetékes:",
                 "number": "0646 555-123"
@@ -171,7 +154,6 @@
                 "number": "0670 555-4567"
             }
         ]
-    
     },
     {
         "kurzusnev": "Web technologia alapjai",
@@ -183,14 +165,12 @@
         "helyszin": "Online",
         "oktato": "Dr. Bednarik László",
         "szak": "MI",
-        "cim":
-        {
+        "cim": {
             "street": "Egyetemváros",
             "city": "Miskolc",
             "code": 1021
         },
-        "phone number":
-        [
+        "phone number": [
             {
                 "type": "Vezetékes:",
                 "number": "0646 555-123"
@@ -200,6 +180,5 @@
                 "number": "0670 555-4567"
             }
         ]
-    
     }
 ]
