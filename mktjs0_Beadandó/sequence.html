@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -7,11 +8,55 @@
     <link rel="shortcut icon" href="Source/favicon.png">
     <title>Star Wars sorrendben</title>
     <style>
-        
+        button {
+            opacity: 0.9;
+            background-color: black;
+            padding: 2%;
+            border: 2px solid yellow;
+            margin: 2%;
+            color: yellow;
+            font-style: normal;
+            font-size: 15pt;
+        }
     </style>
-    <script></script>
+    <script src="Source/jquery3.7.1.js"></script>
+    <script src="Source/jscript.js"></script>
 </head>
+
 <body>
+    <header>
+        <img src="Source/Star_Wars_Logo.svg.png" width="30%" alt="Banner">
+        <hgroup>
+            <h1>Csillagok háborúja</h1>
+            <h2>Filmek, sorozatok sorrendben</h2>
+        </hgroup>
+    </header>
+    <main>
+        <div id="sidebar">
+            <h3>Epizódok</h3>
+            <ul>
+                <li><a href="sequence.html">Sorrendben</a></li>
+                <li><a href="series.html">Trilógiák</a></li>
+            </ul>
+
+            <aside id="vertical">
+                <h3>Linkek</h3>
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="movies.html">Filmek</a></li>
+                    <li><a href="series.html">Sorozatok</a></li>
+                    <li><a href="link.html">Ajánló</a></li>
+                </ul>
+            </aside>
+        </div>
+        <section>
+            <div id="stg" style="background-color: black; width: 100%;">
+                TERÜLET
+            </div>
+            <p><b>Kattints az Adatok betöltése gombra!</b></p>
+            <button id="ReadJson">Adatok betöltése</button>
+        </section>
+    </main>
     <footer>
         <img src="Source/star-wars-light-2908144_1920.png" alt="Lightsaber" width="40%">
         <nav id="horizontalFooter">A Star Wars filmeket a Disney+ oldalán nézheted meg:<br>
@@ -24,4 +69,5 @@
         </small>
     </footer>
 </body>
+
 </html>
