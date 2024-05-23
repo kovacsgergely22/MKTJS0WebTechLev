@@ -80,6 +80,10 @@ p {
     font-size: 13pt;
 }
 
+.centerText {
+    text-align: center;
+}
+
 footer {
     color: lightblue;
     text-align: center;
