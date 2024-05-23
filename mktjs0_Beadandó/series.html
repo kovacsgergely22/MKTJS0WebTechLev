@@ -24,7 +24,7 @@
             padding-right: 2%;
         }
 
-        section{
+        section {
             flex: 75%;
             padding: 2%;
         }
@@ -34,7 +34,7 @@
 </head>
 
 <body background="Source/space-1164579_1920.png">
-    <header>
+    <header id="top">
         <img src="Source/Star_Wars_Logo.svg.png" width="30%" alt="Banner">
         <hgroup>
             <h1>Csillagok háborúja</h1>
@@ -43,13 +43,7 @@
     </header>
     <main>
         <div id="sidebar">
-            <h3>Epizódok</h3>
-            <ol>
-
-            </ol>
-
             <aside id="vertical">
-                <h3>Linkek</h3>
                 <ul>
                     <li><a href="index.html">Főoldal</a></li>
                     <li><a href="movies.html">Filmek</a></li>
@@ -64,6 +58,32 @@
                 title="The Mandalorian | Official Trailer | Disney+ | Streaming Nov. 12" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div>
+                <hr>
+                <h3>Melyik a kedvenc sorozatod?</h3>
+                <form>
+
+                    <datalist id="series">
+                        <option value="A mandalóri">
+                        <option value="Firefox">
+                        <option value="Internet Explorer">
+                        <option value="Opera">
+                        <option value="Safari">
+                        <option value="Microsoft Edge">
+                    </datalist>
+
+                    <label>Kedvenc sorozatom:
+                        <input list="series" name="mySeries" />
+                    </label>
+                    <input type="submit">
+                </form>
+            </div>
+            <div>
+                <hr>
+                <a href="#top">Ugrás a lap tetejére!</a>
+                <hr>
+            </div>
         </section>
     </main>
     <footer>

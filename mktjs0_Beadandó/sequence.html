@@ -8,6 +8,27 @@
     <link rel="shortcut icon" href="Source/favicon.png">
     <title>Star Wars sorrendben</title>
     <style>
+
+#sidebar {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        #vertical {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        section {
+            flex: 75%;
+            padding-right: 3%;
+        }
+
+        #trailers {
+            width: 90%;
+            flex: 75%;
+            padding: 2%;
+        }
         button {
             opacity: 0.9;
             background-color: black;
@@ -24,7 +45,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <img src="Source/Star_Wars_Logo.svg.png" width="30%" alt="Banner">
         <hgroup>
             <h1>Csillagok háborúja</h1>
@@ -33,14 +54,7 @@
     </header>
     <main>
         <div id="sidebar">
-            <h3>Epizódok</h3>
-            <ul>
-                <li><a href="sequence.html">Sorrendben</a></li>
-                <li><a href="series.html">Trilógiák</a></li>
-            </ul>
-
             <aside id="vertical">
-                <h3>Linkek</h3>
                 <ul>
                     <li><a href="index.html">Főoldal</a></li>
                     <li><a href="movies.html">Filmek</a></li>
@@ -50,11 +64,36 @@
             </aside>
         </div>
         <section>
+            <p>
+                Az oldalon a Csillagok háborúja filmeket és sorozatokat mutatjuk be. Rengeteg alkotás készült már az
+                első film 1977-es megjelenésétől kezdve. Az óriási Star Wars kínálatban így már nem könnyű eligazodni,
+                ehhez található egy kis segítség az oldalon. A filmekről és sorozatokról adunk egy gyártási időrendben
+                sorba rendezett listát és egy történeti időrendben sorba rendezett listát is, attól függően ki milyen
+                sorrendben szeretné megnézni ezeket. Első alkalommal érdemes gyártási sorrendben nézni ezeket, mivel így
+                nem lövünk le egyetlen poént sem idejekorán.
+            </p>
+            <p>
+                A linkekre kattintva eljuthatsz a Disney+ oldalára, ahol a
+                filmeket
+                és sorozatokat
+                megtekintheted. A filmeket gyártási
+                sorrendben
+                és történeti időrendben is megtekintheted.
+            </p>
+            <hr>
             <div id="stg" style="background-color: black; width: 100%;">
-                TERÜLET
             </div>
-            <p><b>Kattints az Adatok betöltése gombra!</b></p>
-            <button id="ReadJson">Adatok betöltése</button>
+            <p><b>Kattints a megfelelelő gombra attól függően, hogy a filmek gyártási vagy időrendi sorrendjében
+                    szeretnéd a listát!</b></p>
+            <button id="ReadJson">Star Wars filmek gyártási sorrendben</button>
+            <br>
+            <button id="ReadJson1">Star Wars filmek történeti időrendben</button>
+            <hr>
+            <div>
+                <hr>
+                <a href="#top">Ugrás a lap tetejére!</a>
+                <hr>
+            </div>
         </section>
     </main>
     <footer>
