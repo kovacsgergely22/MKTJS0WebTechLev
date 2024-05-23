@@ -2,7 +2,7 @@ header {
     color: yellow;
     text-align: center;
     padding: 1%;
-    animation: animateHeader 2s backwards;
+    animation: animateHeader 6s backwards;
 }
 
 hgroup {
