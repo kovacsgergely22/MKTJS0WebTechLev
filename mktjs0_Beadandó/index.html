@@ -8,12 +8,20 @@
     <link rel="shortcut icon" href="Source/favicon.png">
     <title>Star Wars</title>
     <style>
-        
+        #pageLinks:hover {
+            animation: animateLinks 5s;
+        }
+
         #vertical {
             flex: 30%;
             padding: 3%;
         }
 
+        @keyframes animateLinks {
+            100% {
+                background-color: yellow;
+            }
+        }
     </style>
     <script src="Source/jquery3.7.1.js"></script>
     <script src="Source/jscript.js"></script>
@@ -26,19 +34,19 @@
             <h1>Csillagok háborúja</h1>
             <h2>Amit a Csillagok Háborújáról tudni kell</h2>
             <nav class="horizontal">
-                <a id="profile" href="movies.html">
-                    <img src="Source/millenium-falcon-1627322_1920.jpg" alt="Movies" width="23%" title="Filmek">
+                <a id="pageLinks" href="movies.html"> Filmek
+                    <img src="Source/millenium-falcon-1627322_1920.jpg" alt="Movies" width="12%" title="Filmek">
                 </a>
-                <a href="series.html">
-                    <img src="Source/grogu-8263658_640.jpg" alt="Series" width="18%" title="Sorozatok">
+                <a id="pageLinks" href="series.html"> Sorozatok
+                    <img src="Source/grogu-8263658_640.jpg" alt="Series" width="9%" title="Sorozatok">
 
                 </a>
-                <a href="sequence.html">
-                    <img src="Source/star-wars-R2D2-2172948_640.jpg" alt="Star Wars" width="18%"
+                <a id="pageLinks" href="sequence.html">Filmek sorrendben
+                    <img src="Source/star-wars-R2D2-2172948_640.jpg" alt="Star Wars" width="9%"
                         title="Star Wars sorrendben">
                 </a>
-                <a href="link.html">
-                    <img src="Source/spaceship-2841277_640.png" alt="Spaceship" width="15%" title="Ajánló">
+                <a id="pageLinks" href="link.html">Ajánló
+                    <img src="Source/spaceship-2841277_640.png" alt="Spaceship" width="8%" title="Ajánló">
                 </a>
             </nav>
         </hgroup>
