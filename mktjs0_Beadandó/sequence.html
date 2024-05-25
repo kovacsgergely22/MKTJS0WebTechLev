@@ -44,11 +44,14 @@
     <script src="Source/jscript.js"></script>
     <script>
         $(document).ready(function () {
-                $("#hide").click(function () {
-
+            $("#hide").click(function () {
+                if ($("#stg").is(":hidden")) {
+                    $("#stg").show();
+                } else {
                     $("#stg").hide();
-                });
+                }
             });
+        });
     </script>
 </head>
 
@@ -92,13 +95,15 @@
             <hr>
             <div id="stg" style="background-color: black; width: 100%;">
             </div>
-            <p><b>Kattints a megfelelelő gombra attól függően, hogy a filmek gyártási vagy időrendi sorrendjében
-                    szeretnéd a listát!</b></p>
-            <button id="ReadJson">Star Wars filmek gyártási sorrendben</button>
-            <br>
-            <button id="ReadJson1">Star Wars filmek történeti időrendben</button>
-            <hr>
-            <button id="hide">Lista elrejtése</button>
+            <div style="text-align: center;">
+                <p><b>Kattints a megfelelelő gombra attól függően, hogy a filmek gyártási vagy időrendi sorrendjében
+                        szeretnéd a listát!</b></p>
+                <button id="ReadJson">Star Wars filmek gyártási sorrendben</button>
+                <br>
+                <button id="ReadJson1">Star Wars filmek történeti időrendben</button>
+                <hr>
+                <button id="hide">Lista elrejtése/megjelenítése</button>
+            </div>
             <div class="centerText">
                 <hr>
                 <a href="#top">Ugrás a lap tetejére!</a>

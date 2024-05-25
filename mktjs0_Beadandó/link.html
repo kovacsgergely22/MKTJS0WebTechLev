@@ -28,18 +28,6 @@
             flex: 75%;
             padding-right: 2%;
         }
-
-        button {
-            opacity: 0.9;
-            background-color: black;
-            padding: 2%;
-            border: 2px solid yellow;
-            margin: 2%;
-            color: yellow;
-            font-style: normal;
-            font-size: 15pt;
-        }
-
     </style>
     <script src="Source/jquery3.7.1.js"></script>
     <script src="Source/jscript.js"></script>
@@ -63,18 +51,49 @@
                     <li><a href="sequence.html">Teljes sorrend</a></li>
                 </ul>
             </aside>
+            <hr>
+            <h3>Készülő sorozatok</h3>
+            <hr>
+            <ul>
+                <li><a href="#history">Star Wars - Birodalmi históriák</a></li>
+                <li><a href="#acolyte">Star Wars - The Acolyte</a></li>
+            </ul>
         </div>
         <section>
             <h3>Ajánló</h3>
             <p>Jelenleg a következő filmek, illetve sorozatok készülnek:</p>
             <hr>
-            <h3>Star Wars - Birodalmi históriák</h3>
+            <table cellspacing="1px" cellpadding="10px"
+                style="table-layout: fixed; width: 100%; color: black; font-weight: bold; border: white solid 1px;">
+
+                <tr style="font-size: 14pt; background: lightblue; color:yellow">
+                    <th><em>Várható megjelenések:</em></th>
+                    <th><em>Film vagy sorozat címe:</em></th>
+                    <th><em>Megjelenés időpontja</em></th>
+                </tr>
+
+                <tr style="text-align: center; background: lightgreen;">
+                    <td>1.</td>
+                    <td>Star Wars - Birodalmi históriák</td>
+                    <td>2024. május 4-től</td>
+                </tr>
+
+                <tr style="text-align: center; background: lightgreen;">
+                    <td>2.</td>
+                    <td>Star Wars - The Acolyte</td>
+                    <td>2024. június 5-én várható</td>
+                </tr>
+            </table>
+            <hr>
+            <h3 id="history">Star Wars - Birodalmi históriák</h3>
+            <hr>
             <iframe width="893" height="493" src="https://www.youtube.com/embed/8SIST9t72kY"
                 title="Tales of the Empire | Official Trailer | Disney+" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <hr>
-            <h3>Star Wars - The Acolyte</h3>
+            <h3 id="acolyte">Star Wars - The Acolyte</h3>
+            <hr>
             <iframe width="893" height="493" src="https://www.youtube.com/embed/6tzur6JrUEA"
                 title="The Acolyte | Official Trailer | Disney+" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -84,13 +103,13 @@
             <div>
                 <h3>Iratkozz fel!</h3>
                 <p>Ha nem szeretnél lemaradni a Star Wars újdonságairól, iratkozz fel hírlevelünkre és oszd meg velünk
-                     az oldallal kapcsolatos véleményed néhány szóban:</p>
+                    az oldallal kapcsolatos véleményed néhány szóban:</p>
                 <form>
                     <fieldset>
                         <legend>Hírlevél</legend>
                         Neved:
                         <input type="text" name="userName" required><br>
-                        Email:
+                        E-mail:
                         <input type="email" name="email" required><br>
                         <br>
                         <hr>
@@ -103,28 +122,15 @@
                 </form>
             </div>
             <br>
-            <table cellspacing="0" cellpadding="0" style="table-layout: fixed;
-            font-family: Arial, Helvetica, sans-serif; font-size: 12; color: black; font-weight: bold; border: white solid 1px;
-            background: #ffffcc;">
-        
-                <tr style="font-size: 14pt; background: lightblue; color:yellow" >
-                    <th><em>Várható megjelenések:</em></th>
-                    <th><em>Film vagy sorozat címe:</em></th>
-                    <th><em>Megjelenés időpontja</em></th>
-                </tr>
-                
-                <tr style="height: 100px; width: 200px; text-align: center; background: lightgreen;">
-                    <td>1.</td>
-                    <td>Star Wars - Birodalmi históriák</td>
-                    <td>2024</td>
-                </tr>
-        
-                <tr style="height: 100px; width: 200px; text-align: center; background: lightgreen;">
-                    <td>2.</td>
-                    <td>Star Wars - The Acolyte</td>
-                    <td>2024. június 5-én várható</td>
-                </tr>
-            </table>
+
+            <form>
+                <fieldset>
+                    <legend>Tetszik az oldal?</legend>
+                    <input type="radio" name="opinion" id="yes"> Igen <br>
+                    <input type="radio" name="opinion" id="no"> Nem <br>
+                    <input type="submit">
+                </fieldset>
+            </form>
             <div class="centerText">
                 <hr>
                 <a href="#top">Ugrás a lap tetejére!</a>
