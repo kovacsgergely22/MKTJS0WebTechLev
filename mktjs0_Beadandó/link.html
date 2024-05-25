@@ -39,6 +39,7 @@
             font-style: normal;
             font-size: 15pt;
         }
+
     </style>
     <script src="Source/jquery3.7.1.js"></script>
     <script src="Source/jscript.js"></script>
@@ -88,9 +89,9 @@
                     <fieldset>
                         <legend>Hírlevél</legend>
                         Neved:
-                        <input type="text" name="userName"><br>
+                        <input type="text" name="userName" required><br>
                         Email:
-                        <input type="email" name="email"><br>
+                        <input type="email" name="email" required><br>
                         <br>
                         <hr>
                         <br>
@@ -101,6 +102,29 @@
                     </fieldset>
                 </form>
             </div>
+            <br>
+            <table cellspacing="0" cellpadding="0" style="table-layout: fixed;
+            font-family: Arial, Helvetica, sans-serif; font-size: 12; color: black; font-weight: bold; border: white solid 1px;
+            background: #ffffcc;">
+        
+                <tr style="font-size: 14pt; background: lightblue; color:yellow" >
+                    <th><em>Várható megjelenések:</em></th>
+                    <th><em>Film vagy sorozat címe:</em></th>
+                    <th><em>Megjelenés időpontja</em></th>
+                </tr>
+                
+                <tr style="height: 100px; width: 200px; text-align: center; background: lightgreen;">
+                    <td>1.</td>
+                    <td>Star Wars - Birodalmi históriák</td>
+                    <td>2024</td>
+                </tr>
+        
+                <tr style="height: 100px; width: 200px; text-align: center; background: lightgreen;">
+                    <td>2.</td>
+                    <td>Star Wars - The Acolyte</td>
+                    <td>2024. június 5-én várható</td>
+                </tr>
+            </table>
             <div class="centerText">
                 <hr>
                 <a href="#top">Ugrás a lap tetejére!</a>

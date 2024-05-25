@@ -42,6 +42,14 @@
     </style>
     <script src="Source/jquery3.7.1.js"></script>
     <script src="Source/jscript.js"></script>
+    <script>
+        $(document).ready(function () {
+                $("#hide").click(function () {
+
+                    $("#stg").hide();
+                });
+            });
+    </script>
 </head>
 
 <body>
@@ -90,6 +98,7 @@
             <br>
             <button id="ReadJson1">Star Wars filmek történeti időrendben</button>
             <hr>
+            <button id="hide">Lista elrejtése</button>
             <div class="centerText">
                 <hr>
                 <a href="#top">Ugrás a lap tetejére!</a>
